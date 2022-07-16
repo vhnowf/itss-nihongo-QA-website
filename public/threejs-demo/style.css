@@ -1,0 +1,28 @@
+.color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.chocolat-brown {
+    background-image: url('textures/chocolat_brown.jpg');
+}
+
+.milk-tea-brown {
+    background-image: url('textures/milk_tea_brown.jpg');
+}
+
+.mustard-yellow {
+    background-image: url('textures/mustard_yellow.jpg');
+}
+
+.input-cube {
+    display: flex;
+    align-items: center;
+}
+
+.p-top {
+    padding-top: 6px;
+}

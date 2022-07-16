@@ -1,0 +1,33 @@
+.search-result-header {
+    font-size: 18px;
+    font-weight: 500;
+}
+.search-result-header i {
+    color: #e9ebee;
+}
+.search-result-header .search-keyword {
+    color: #f57224;
+    font-style: italic;
+}
+.order-success {
+    text-align: center;
+    padding: 24px 0;
+}
+.order-success .icon-top {
+    font-size: 64px;
+    color: #f57224;
+}
+.order-success h1 {
+    color: #f57224;
+}
+
+.cart-address .item label {
+    width: 150px;
+    display: inline-block;
+    color: rgba(85, 85, 85, 0.8);
+    font-weight: normal;
+}
+.cart-address .item .value {
+    display: inline-block;
+    font-size: 15px;
+}

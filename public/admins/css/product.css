@@ -1,0 +1,120 @@
+#product_form .list-price{
+   list-style: none;
+   padding: 0;
+   margin: 0 0 16 0;
+   display: flex;
+}
+#product_form .list-price li{     
+    display: inline-block;
+}
+#product_form .list-price-item{
+    display: flex;
+   justify-content: space-between;
+    align-items: center; 
+}
+#product_form .list-price-item-left{
+    flex-grow: 1;
+}
+#product_form .list-price-item-left .title{
+    font-size: 1.2rem;
+}
+
+#product_form .list-price-item-right{
+    width: 50px;
+    text-align: center;
+}
+#product_list .product_status {
+    height: 25px;
+    border: 1px solid #f3dbdbcc;
+}
+#product_list .tbl-attribute {
+    max-width: 150px;
+    overflow: auto;
+}
+#product_list .tbl-attribute p {
+    white-space: nowrap;
+}
+#product_list #modelShowPrice .modal-body {
+    min-height: 200px;
+}
+
+#product_form .attribute-box {
+    background: #f9f9f9;
+    padding: 10px;
+    position: relative;
+}
+#product_form .attribute-box .remove-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    padding: 2px 5px;
+}
+#product_form .attribute-box .remove-box:hover {
+    background: #f3f2f2;
+    color: #e0810c;
+    cursor: pointer;
+}
+#product_form .attribute-box .remove-box:active {
+    opacity: 0.8;
+}
+#product_form .attribute-box .btn-add-at-vl {
+    min-width: 200px;
+    border-style: dashed;
+}
+#product_form .attribute-box .value-item {
+    position: relative;
+}
+#product_form .attribute-box .value-item .item-input {
+    width: 100%;
+}
+#product_form .attribute-box .value-item .item-remove {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    font-size: 16px;
+}
+#product_form .attribute-box .value-item .item-remove:hover {
+    color: #e0810c;
+    cursor: pointer;
+}
+#product_form .tbl-prod-attribute input {
+    border: none;
+    width: 100%;
+    color: #6c757d;
+}
+#product_form .tbl-prod-attribute input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #b1bbc4;
+    outline: 0;
+    box-shadow: none;
+}
+#product_form .tbl-prod-attribute .attribute-value {
+    position: relative;
+}
+#product_form .tbl-prod-attribute .attribute-value span {
+    position: absolute;
+    right: 0;
+    color: #999;
+}
+.badge-new,
+.badge-0 {
+    background-color: #007bff;
+}
+.badge-changed,
+.badge-1 {
+    background-color: #ffc107;
+    /* color: #555; */
+}
+.badge-translated,
+.badge-2 {
+    background-color: #28a745;
+}
+.badge-request_translation,
+.badge-3 {
+    background-color: red;
+}
+.tbl-product tr.active {
+    background-color: #f1f5f7;
+}

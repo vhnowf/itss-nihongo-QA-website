@@ -1,0 +1,123 @@
+/* footer */
+footer {
+    background: #232629;
+    .container {
+        max-width: 1264px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 32px 12px 12px 12px;
+        display: flex;
+        .logo-footer {
+            flex: 0 0 64px;
+            margin: -12px 0 32px 0;
+        }
+        .footer--nav {
+            display: flex;
+            flex: 2 1 auto;
+            flex-wrap: wrap;
+
+            .footer-col {
+                padding: 0 12px 24px 0;
+                flex: 1 0 auto;
+
+                .-title {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-bottom: 12px;
+                    line-height: 1.30769231;
+                    max-width: 230px;
+                }
+
+                .list-footer {
+                    margin: 0;
+                    list-style: none;
+                    padding: 0;
+                }
+            }
+        }
+        a {
+            color: #B6BBC0;
+        }
+    }
+}
+@media screen and (max-width: 480px ) {
+    footer .col-md-2 {
+        img{
+            margin-left: 15px;
+            height: 30px;
+        }
+    }
+    footer .col-md-4{
+        padding: 0 10px 0 15px;
+        .m-b-24{
+            margin-bottom: 10px;
+            h3{
+                font-size: 13px;
+                margin: 5px 0;
+            }
+            p{
+                font-size: 11px;
+                margin: 5px 0;
+            } 
+        }
+        .phone-contact{
+            display: flex;
+            align-items: center;
+            img{
+                margin: 0;
+            }
+            .phone_contact{
+                color:#FE960C;
+                font-size: 14px;
+                margin-top: 3px;
+                margin-left: 10px;  
+                font-weight: bold;
+            }
+        }   
+    }
+    footer .col-md-2{
+       
+        .m-b-3{
+            margin-left: 15px;
+            h3{
+                font-size: 13px;
+                margin-bottom: 10px;
+            }
+            a{
+                font-size: 11px;
+            }
+        }
+        padding: 0;
+        margin: 0;
+    }
+    footer .col-md-3{
+        h3{
+            font-size: 13px;
+        }
+        .input-group{
+            input{
+                &::placeholder{
+                    color: #b9b9b9;
+                    font-size: 11px;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+    footer{
+        .text-chat{
+            .btn-chat{
+                width: 100px;
+                font-size: 13px;
+                cursor: pointer;
+                height: 30px;
+                margin-top: 30px;    
+                img{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+/* END: footer */

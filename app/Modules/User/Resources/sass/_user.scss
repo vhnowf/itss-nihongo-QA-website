@@ -1,0 +1,287 @@
+.user-layout {
+    .user-sidebar {
+        margin-left: 50px;
+        ul {
+            padding: 0;
+            list-style: none;
+            ul {
+                padding: 0;
+                margin-left: 30px;
+                padding-top: 5px;
+            }
+            li {
+                padding: 0;
+                margin-bottom: 12px;
+                a {
+                    i {
+                        font-size: 20px;
+                        padding-right: 5px;
+                        color: #f57224;
+                    }
+                    &.active {
+                        color: #f57224;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .u-title {
+        border-bottom: 1px solid #efefef;
+        padding: 5px 0;
+        width: 100%;
+
+        h3 {
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: capitalize;
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 5px;
+        }
+    }
+    #avatar {
+        text-align: center;
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .btn-file {
+            background: #fff;
+            color: #555;
+            border: 1px solid rgba(0, 0, 0, 0.09);
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.03);
+            padding: 7px 18px;
+            &:hover {
+                background: rgba(0, 0, 0, 0.02);
+                cursor: pointer;
+            }
+        }
+        .upload-btn-wrapper {
+            position: relative;
+            cursor: pointer;
+            input[type="file"] {
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 0;
+                height: 100%;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        p {
+            color: #999;
+            font-size: 12px;
+        }
+    }
+
+    .list-address .item {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #efefef;
+        &-row {
+            margin-bottom: 12px;
+            .label {
+                width: 150px;
+                display: inline-block;
+                color: rgba(85, 85, 85, 0.8);
+            }
+            .content {
+                display: inline-block;
+                width: 300px;
+                font-size: 15px;
+            }
+            .default-address {
+                display: inline-block;
+                background: #00bfa5;
+                color: #fff;
+                border-radius: 3px;
+                padding: 2px;
+                text-transform: capitalize;
+                font-size: 11px;
+                font-weight: 500;
+                width: auto;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+.tbl-img-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+
+/* avatar css */
+.user-profile {
+    .avatar {
+        box-shadow: inset 0 10em 0 #eff0f1 !important;
+        text-align: center;
+        padding: 12px;
+        margin-bottom: 16px;
+        border: 1px solid #d6d9dc;
+        border-radius: 3px;    
+    }
+    
+    .reputation {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #6a737c;
+    }
+    
+    #reputation {
+        font-size: 20px;
+        color: #000;
+    }
+    .name {
+        font-weight: 700 !important;
+        color: #0c0d0e !important;
+        font-size: 24px;
+    }
+    
+    .createdDate {
+        color: #9199a1;
+        font-style: italic;
+        border-bottom: 1px solid #9199a1;
+        padding-bottom: 5px;
+    }
+    
+    .card {
+        flex: 33.33%;
+        border: 1px solid #9199a1;
+        margin: 5px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    
+    .card .title{
+        color: #0077cc;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .card .num {
+        color: #535a60;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+    .activity-content{
+        margin: 12px;
+    }
+    
+    .activity-content .quantity {
+        font-size: 20px;
+        color: #535a60;
+    }
+    
+    /* activity css */
+    .navigation{
+        display: flex;
+        margin: 12px;
+    }
+    
+    .navigation.link{
+        text-decoration: none;
+        cursor: pointer;
+        color: #242729;
+        padding: 4px 12px;
+        font-size: 12px;
+    }
+    
+    .top-card{
+        flex: 50%;
+        margin: 15px;
+        text-align: center;
+        padding: 31px;
+        font-size: 16px;
+        background: #fafafb;
+        align-items: center;
+        .icon {
+            color: #6a737c;
+            font-size: 60px;
+        }
+        .caption {
+            color: #6a737c;
+        }
+    }    
+    
+    .active1 {
+        background-color: #d6d9dc;
+    }
+    
+    .btn-group button {
+        background-color: #FFF;
+        border: 1px solid #9fa6ad;
+        color: #6a737c;
+        padding: 10px 24px;
+        cursor: pointer;
+        float: left;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      .btn-group button:last-child {
+        border-radius: 0 3px 3px 0;  
+      }
+      
+      .btn-group button:first-child {
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* Add a background color on hover */
+      .btn-group button:hover {
+        background-color: #fafafb;
+      }
+    
+      .grid-container2 {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 40% 60%
+    }
+    .grid-item {
+        font-family: tahoma;
+    }
+    
+    button.active {
+        background: #d6d9dc;
+    }
+    
+    /* tag css */
+    .tag {
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 12px;
+        color: #39739d;
+        background-color: #e1ecf4;
+        padding: .4em .5em;
+        margin: 2px 2px 2px 0;
+        border-radius: 3px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .user-layout {
+        .user-sidebar {
+            display: none;
+        }
+    }
+}

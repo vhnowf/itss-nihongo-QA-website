@@ -1,0 +1,73 @@
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.item_detail_getpoint dt, .item_detail_other_txt dt {
+    float: left;
+}
+.item_detail_other_txt dt::after {
+    content: ":";
+    display: inline-block;
+    margin: 0 3px;
+}
+.item_detail_other_txt dd .item_detail_other_ctgItem {
+    background: url(/images/breadcrumb.png) center right no-repeat;
+    padding-right: 12px;
+}
+.item_detail_other_txt dd .item_detail_other_ctgItem:last-child {
+    background: 0 0;
+}
+.cosmeland-detail dl dt {
+    display: table-cell;
+    width: 149px;
+    font-weight: bold;
+}
+.cosmeland-detail dl dd {
+    display: table-cell;
+    color: #828282;
+}
+.crosset-detail .size-head {
+    float: left;
+    min-width: 7em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.crosset-detail .size-head th {
+    background: #f3f3f3;
+}
+.crosset-detail .size-data-wrapper table {
+    width: auto;
+}
+.tbl-detail {
+    margin-bottom: 15px;
+}
+.tbl-detail td, .tbl-detail th {
+    border: 1px solid #dee2e6;
+    padding: 5px;
+}
+
+.saneibd-detail dt {
+    margin-right: 15px;
+    float: left;
+    padding-bottom: 5px;
+    width: 100px;
+}
+.saneibd-detail dd {
+    padding-bottom: 5px;
+    margin-left: 105px;
+}
+.saneibd-detail hr.dash {
+    width: 100%;
+    height: 1px;
+    border-top: 1px dotted #ccc;
+    margin: 5px 0;
+    clear: both;
+}

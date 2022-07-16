@@ -1,0 +1,130 @@
+.box {
+    float: left;
+    width: 164px;
+    height: 100px;
+    background: #070707;
+    text-align: center;
+    margin: 10px;
+    border: 2px;
+    padding: auto;
+    position: inherit;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-inner,
+    .box {
+        width: 50%;
+        position: inherit;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .right {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.carousel-inner {
+    background: #FFFF00;
+    width: 100%;
+    height: 120px;
+}
+
+.carousel-item {
+    background: #ff7f00;
+    position: fixed;
+    padding: auto;
+    position: inherit;
+    margin-top: 0px;
+}
+
+.carousel-control-prev-icon {
+    color: #2E2EFE;
+    position: inherit;
+}
+
+.right {
+    width: 100px;
+    height: 70px;
+    background: #ff7f00;
+    top: 15px;
+    right: 15px;
+    border-style: double;
+    position: fixed;
+    transition: width 2s;
+}
+
+.right:hover {
+    width: 160px;
+    height: 100px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: normal;
+    background: #ff7f00;
+    font-size: 24px;
+    position: inherit;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.table tr th {
+    border: 1px solid black;
+}
+
+.table tr td {
+    border: 1px solid black;
+}
+
+.table table-bordered {
+    border: 1px solid black;
+}
+
+.top {
+    width: 300px;
+    height: 70px;
+    top: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+h4 {
+    color: #ff7f00;
+}
+
+h6 {
+    color: #ff7f00;
+}
+
+.footer {
+    height: 40px;
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+.h1 {
+    color: #2E2EFE;
+}

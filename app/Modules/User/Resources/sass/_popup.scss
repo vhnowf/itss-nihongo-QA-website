@@ -1,0 +1,136 @@
+.popup-custom {
+	.modal-content {
+		border-radius: 0;
+
+		.modal-body {
+			display: inline-block;
+			position: relative;
+			padding: 0;
+			.close {
+				position: absolute;
+				right: 10px;
+				top: 10px;
+				width: 22px;
+				height: 21px;
+			}
+		}
+	}
+
+	h5 {
+		font-size: 18px;
+		margin: 0 0 15px;
+	}
+
+	.popup-input {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		i {
+			position: absolute;
+			left: 5px;
+			bottom: 12px;
+			font-size: 16px;
+			color: #f57224;
+		}
+		.p-input {
+			width: 100%;
+			padding: 5px 0 5px 30px;
+			line-height: 24px;
+			border: none;
+			border-bottom: 1px solid #ddd;
+			outline: 0;
+			border-radius: 0;
+			display: inline-block;
+		}
+	}
+
+	.p-btn {
+		box-sizing: border-box;
+		display: inline-block;
+		min-width: 150px;
+		padding: 10px;
+		background-color: #f57224;
+		color: #fff;
+		border: none;
+		border-radius: 0;
+		cursor: pointer;
+		&:hover {
+			background-color: #f57224;
+		}
+	}
+}
+
+#popup_user {
+	.modal-dialog {
+		width: 650px;
+		.modal-content {
+			background-color: #f2f2f2;
+		}
+	}
+	.tab-content {
+		&.active {
+			display: inline-block;
+			width: 100%;
+		}
+	}
+	.modal-login-left {
+		float: left;
+		width: 35%;
+		padding: 24px;
+	}
+	.modal-login-right {
+		float: left;
+		width: 65%;
+		background-color: #fff;
+		padding: 24px;
+		.p-btn {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+	.line-other {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 12px;
+		background: url('/images/line_other.png') center center repeat-x;
+		p {
+			margin-bottom: 0;
+			background: #fff;
+			display: inline-block;
+			padding: 5px 10px;
+		}
+	}
+}
+
+.popup-forgot-password {
+	.modal-content {
+		.modal-body {
+			padding: 24px;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#popup_user {
+		.modal-dialog {
+			width: 90%;
+			max-width: 90%;
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	#popup_user {
+		.modal-dialog {
+			width: auto;
+			max-width: 100%;
+		}
+		.modal-login-left {
+			width: 100%;
+		}
+		.modal-login-right {
+			width: 100%;
+		}
+	}
+}

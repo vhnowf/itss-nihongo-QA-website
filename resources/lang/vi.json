@@ -1,0 +1,12 @@
+{
+    "order" : "Đặt hàng",
+    "Paid" : "Đã thanh toán",
+    "delivery" : "Đang giao hàng",
+    "receive" : "Đã nhận hàng",
+    "finish" : "Kết thúc",
+    "cancel" : "Hủy đơn",
+    "new" : "Mới",
+    "changed" : "Thay đổi",
+    "translated" : "Đã dịch",
+    "request_translation" : "Yêu cầu dịch"
+}

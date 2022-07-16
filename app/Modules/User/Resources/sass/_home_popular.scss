@@ -1,0 +1,116 @@
+/* home-popular */
+.home-popular {
+    padding-bottom: 40px;
+    .item-sidebar {
+        .p-item {
+            .p-product {
+                .p-product-image,
+                .p-product-image-new,
+                .p-product-image-sale {
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .home-popular {
+        .item-sidebar {
+            .p-item {
+                .p-price {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .home-popular {
+        .item-sidebar {
+            order: 1;
+            width: 100%;
+            .p-item {
+                .p-supply {
+                    display: none;
+                }
+                .p-product {
+                    .p-product-image,
+                    .p-product-image-new,
+                    .p-product-image-sale {
+                        float: left;
+                        width: 50%;
+                        height: 400px;
+                    }
+                    .p-product-title {
+                        padding-top: 100px;
+                        padding-left: 12px;
+                        height: 132px;
+                    }
+                }
+                .p-tag {
+                    ul {
+                        height: 30px;
+                        padding-left: 12px;
+                    }
+                }
+                .p-price {
+                    font-size: 23px;
+                }
+                .p-rate {
+                    margin-bottom: 1%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .home-popular {
+        .item-sidebar {
+            .p-item {
+                .p-buy {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .home-popular {
+        .item-sidebar {
+            .p-item {
+                .p-product {
+                    .p-product-image,
+                    .p-product-image-new,
+                    .p-product-image-sale {
+                        float: none;
+                        width: 100%;
+                    }
+                    .p-product-title {
+                        padding-top: 0;
+                        padding-left: 0;
+                        height: 32px;
+                    }
+                }
+                .p-tag {
+                    ul {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .home-popular {
+        .item-sidebar {
+            .p-item {
+                .p-tag {
+                    ul {
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* END: home-popular */

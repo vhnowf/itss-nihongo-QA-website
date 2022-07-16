@@ -1,0 +1,44 @@
+.total_money {
+    font-size: 20px;
+}
+
+.form-cancel-order{
+    width: 92%; 
+    margin: 10px; 
+    padding: 4px; 
+    display:inline
+}
+
+.badge-attribute {
+    font-weight: normal;
+    padding: 6px;
+    border: 1px solid #e9e9e9;
+    color: #424242;
+    font-size: 12px;
+}
+.badge-attribute span {
+    font-size: 14px;
+}
+
+/* od-prod-item */
+.od-prod-item {
+    border-bottom: 1px dashed #4242423d;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.od-prod-item .media img {
+    width: 70px;
+}
+.od-prod-item .media a {
+    color: #6c757d;
+}
+.od-prod-item .media a:hover {
+    color: #ff5b5b;
+}
+.od-prod-item .media .remove a:hover {
+    opacity: 0.7;
+}
+.od-prod-item:last-child {
+    border-bottom: 1px dashed transparent;
+  }
+  /* END: od-prod-item */
